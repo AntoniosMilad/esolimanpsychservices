@@ -694,11 +694,16 @@ body{
 	margin: 0;
 	padding: 0;
 	height: 230px;
+	
+	
 }
 .schedule .schedule-inner {
 	position: relative;
 	transform: translateY(-50%);
 	z-index:9;
+	
+	
+
 }
 .schedule .single-schedule {
 	position: relative;
@@ -1317,7 +1322,7 @@ body{
 	padding-left:70px;
 }
 .services .single-service i{
-	font-size:45px;
+	font-size:20px;
 	color:#6fc043;
 	position:absolute;
 	left:0;
@@ -1335,6 +1340,19 @@ body{
 	font-size:20px;
 	font-weight:600;
 }
+
+
+
+.services .single-service h6{
+	text-transform:capitalize;
+	margin-bottom:25px;
+	color:#868686;
+	margin-left:-40px;
+}
+
+
+
+
 .services .single-service h4 a:hover{
 	color:#6fc043;
 }
@@ -1372,7 +1390,7 @@ body{
   position: absolute;
   display: inline-block;
   top: 20px;
-  left: 38px;
+
   font-size: 32px;
 }
 .service-details-inner-left {
