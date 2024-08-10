@@ -57,12 +57,14 @@
       text-align: center;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       transition: all 0.3s ease;
+      width: 100%;
+      /* height: 700px; Set a fixed height */
     }
 
     .doctor-card img {
       width: 100%;
-      height: auto;
-      display: block;
+      height: 400px;
+      display: cover;
     }
 
     .doctor-card .card-body {
@@ -84,6 +86,8 @@
     .doctor-card:hover {
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
+
+
   </style>
 </head>
 
@@ -106,30 +110,33 @@
 
    <!-- Header Area -->
    <header class="header">
+ 
     <!-- Topbar -->
     <div class="topbar">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-5 col-12">
+            <!-- <div class="logo">
+              <a href="index.html"><img src="img/logo.png" alt="#" width="110px" height="110px" /></a>
+            </div> -->
             <!-- Contact -->
-            <ul class="top-link">
+             <!-- <ul class="top-link">
               <li><a href="about.html">About</a></li>
               <li><a href="Clinicians.html">Clinicians</a></li>
               <li><a href="contact.html">Contact</a></li>
-            </ul>
+            </ul> -->
             <!-- End Contact -->
           </div>
           <div class="col-lg-6 col-md-7 col-12">
-            <!-- Top Contact -->
-            <ul class="top-contact">
-              <li><i class="fa fa-phone"></i>(559) 803-0680</li>
-              <li>
-                <i class="fa fa-envelope"></i><a
-                  href="mailto:support@yourmail.com">cultivatingccc1@gmail.com</a>
-              </li>
-            </ul>
-            <!-- End Top Contact -->
-          </div>
+            <!-- Top Contact and Appointment Button -->
+            <div class="top-contact">
+                <ul>
+                    <li><i class="fa fa-phone"></i>(559) 803-0680</li>
+                    <li><i class="fa fa-envelope"></i><a href="mailto:support@yourmail.com">cultivatingccc1@gmail.com</a></li>
+                </ul>
+            </div>
+            <!-- End Top Contact and Appointment Button -->
+        </div>
         </div>
       </div>
     </div>
@@ -142,7 +149,7 @@
             <div class="col-lg-2 col-md-3 col-12" >
               <!-- Start Logo -->
               <div class="logo">
-                <a href="index.html"><img src="img/logo.png" alt="#" width="100px" height="100px" /></a>
+                <a href="index.html"><img src="img/logo.png" alt="#" width="150px" height="150px" /></a>
               </div>
               <!-- End Logo -->
               <!-- Mobile Nav -->
@@ -151,10 +158,10 @@
             </div>
             <div class="col-lg-10 col-md-9 col-12">
               <!-- Main Menu -->
-              <div class="main-menu">
+              <div class="main-menu" style="margin-top: 35px;"> 
                 <nav class="navigation">
                     <ul class="nav menu">
-                        <li class="active">
+                        <li >
                             <a href="index.html">Home</a>
                         </li>
                         <li>
@@ -170,7 +177,7 @@
                             <a href="about.html">About</a>
                         </li>
                         <li>
-                            <a href="contact.html">Contact US
+                            <a href="contact.html">Contact Us
                                 <i class="icofont-rounded-down"> </i>
                             </a>
                             <ul class="dropdown">
@@ -178,6 +185,9 @@
                                 <li><a href="Rates.html">Rates and Insurance </a></li>
                             </ul>
                         </li>
+
+                        <li class="active"><a href="Clinicians.html">Clinicians</a></li>
+
                         <!-- "Get Appointment" button -->
                         <div class="col-lg-3 col-12" style="margin-left: auto; justify-content: center; align-items: center; display: flex; width: 100%;">
 
@@ -294,7 +304,7 @@
           <div class="card-body">
             <h4>Jason Martinez</h4>
 
-            <h5>Marriage and Family Therapy Intern</h5></br/>
+            <!-- <h5>Marriage and Family Therapy Intern</h5></br/> -->
             <button class="btn btn-primary btn-sm toggle-btn" type="button" style="margin-top: 50px;">
               Read More 
             </button>
@@ -313,13 +323,12 @@
       </div>
 
 
-       <div class="col-lg-4 col-md-6 col-12">
+       <!-- <div class="col-lg-4 col-md-6 col-12">
         <div class="doctor-card">
           <img src="img/Mia Obeso.png" alt="Doctor 2">
           <div class="card-body">
             <h4>Mia Obeso</h4>
 
-            <h5>Student clinician</h5></br/>
             <button class="btn btn-primary btn-sm toggle-btn" type="button" style="margin-top: 50px;">
               Read More 
             </button>
@@ -331,7 +340,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
 
       <div class="col-lg-4 col-md-6 col-12">
@@ -341,8 +350,8 @@
             <h4>Ashley Lewis 
             </h4>
 
-            <h5>Marriage and Family Therapy Intern
-            </h5></br/>
+            <!-- <h5>Marriage and Family Therapy Intern
+            </h5></br/> -->
             <button class="btn btn-primary btn-sm toggle-btn" type="button" style="margin-top: 50px;">
               Read More 
             </button>
@@ -395,8 +404,8 @@
     <!-- Footer Top -->
     <div class="footer-top">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-12">
+        <div class="row" style="padding: 30px;">
+          <!-- <div class="col-lg-3 col-md-6 col-12">
             <div class="single-footer">
               <h2>About Us</h2>
               <p>Dr. Soliman's Psychological Practice is aimed at providing high-quality psychological services and counseling. 
@@ -406,16 +415,14 @@
                  Therapy can also help with skill building in the area of interpersonal communications,
                   as well as with conflict resolution. Diversity variables are also an important aspect of treatment,
                    as well as medical issues that may be impacting optimal psychological health.</p>
-              <!-- Social -->
               <ul class="social">
                 <li><a href="#"><i class="icofont-facebook"></i></a></li>
                 <li><a href="#"><i class="icofont-google-plus"></i></a></li>
                 <li><a href="#"><i class="icofont-twitter"></i></a></li>
                 <li><a href="#"><i class="icofont-ui-call"></i></a></li>
               </ul>
-              <!-- End Social -->
             </div>
-          </div>
+          </div> -->
           <div class="col-lg-3 col-md-6 col-12">
             <div class="single-footer f-link">
               <h2>Quick Links</h2>
@@ -444,14 +451,15 @@
               <h2>Open Hours</h2>
               <!-- <p>Lorem ipsum dolor sit ame consectetur adipisicing elit do eiusmod tempor incididunt.</p> -->
               <ul class="time-sidual">
-                <li class="day">Monday - Friday <span>8.00 am - 7.00 pm</span></li>
+                <li class="day">Monday - Friday </li>
+                <li class="day">8.00 am - 7.00 pm</li>
               </ul>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <div class="single-footer">
               <h2>Location</h2>
-              <p>5151 N. Palm Suite 500, 610, and 711 Fresno, CA 93704</p>
+              <p>5151 N. Palm Suite 500, and 711 Fresno, CA 93704</p>
               <!-- <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
                 <input name="email" placeholder="Email Address" class="common-input" onfocus="this.placeholder = ''"
                   onblur="this.placeholder = 'Your email address'" required="" type="email">

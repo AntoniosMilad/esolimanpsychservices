@@ -47,6 +47,14 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+
+    <style>
+
+      .hover-effect {
+            transition: all 0.3s ease;
+          }
+      
+        </style>
   </head>
   <body>
     <!-- Preloader -->
@@ -70,30 +78,33 @@
 
    <!-- Header Area -->
    <header class="header">
+ 
     <!-- Topbar -->
     <div class="topbar">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-5 col-12">
+            <!-- <div class="logo">
+              <a href="index.html"><img src="img/logo.png" alt="#" width="110px" height="110px" /></a>
+            </div> -->
             <!-- Contact -->
-            <ul class="top-link">
+             <!-- <ul class="top-link">
               <li><a href="about.html">About</a></li>
               <li><a href="Clinicians.html">Clinicians</a></li>
               <li><a href="contact.html">Contact</a></li>
-            </ul>
+            </ul> -->
             <!-- End Contact -->
           </div>
           <div class="col-lg-6 col-md-7 col-12">
-            <!-- Top Contact -->
-            <ul class="top-contact">
-              <li><i class="fa fa-phone"></i>(559) 803-0680</li>
-              <li>
-                <i class="fa fa-envelope"></i><a
-                  href="mailto:support@yourmail.com">cultivatingccc1@gmail.com</a>
-              </li>
-            </ul>
-            <!-- End Top Contact -->
-          </div>
+            <!-- Top Contact and Appointment Button -->
+            <div class="top-contact">
+                <ul>
+                    <li><i class="fa fa-phone"></i>(559) 803-0680</li>
+                    <li><i class="fa fa-envelope"></i><a href="mailto:support@yourmail.com">cultivatingccc1@gmail.com</a></li>
+                </ul>
+            </div>
+            <!-- End Top Contact and Appointment Button -->
+        </div>
         </div>
       </div>
     </div>
@@ -106,7 +117,7 @@
             <div class="col-lg-2 col-md-3 col-12" >
               <!-- Start Logo -->
               <div class="logo">
-                <a href="index.html"><img src="img/logo.png" alt="#" width="100px" height="100px" /></a>
+                <a href="index.html"><img src="img/logo.png" alt="#" width="150px" height="150px" /></a>
               </div>
               <!-- End Logo -->
               <!-- Mobile Nav -->
@@ -115,10 +126,10 @@
             </div>
             <div class="col-lg-10 col-md-9 col-12">
               <!-- Main Menu -->
-              <div class="main-menu">
+              <div class="main-menu" style="margin-top: 35px;"> 
                 <nav class="navigation">
                     <ul class="nav menu">
-                        <li>
+                        <li >
                             <a href="index.html">Home</a>
                         </li>
                         <li class="active">
@@ -134,7 +145,7 @@
                             <a href="about.html">About</a>
                         </li>
                         <li>
-                            <a href="contact.html">Contact US
+                            <a href="contact.html">Contact Us
                                 <i class="icofont-rounded-down"> </i>
                             </a>
                             <ul class="dropdown">
@@ -142,6 +153,9 @@
                                 <li><a href="Rates.html">Rates and Insurance </a></li>
                             </ul>
                         </li>
+
+                        <li ><a href="Clinicians.html">Clinicians</a></li>
+
                         <!-- "Get Appointment" button -->
                         <div class="col-lg-3 col-12" style="margin-left: auto; justify-content: center; align-items: center; display: flex; width: 100%;">
 
@@ -245,7 +259,7 @@
 
 
     <!-- Start service 33222-->
-    <section class="services section">
+    <section class="services section " style="padding: 30px;">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -282,7 +296,7 @@
 
 
    <!-- Start service 4545-->
-   <section class="services section">
+   <section class="services section" style="padding: 30px;">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -309,166 +323,138 @@
 
   
   
-    <!-- Start service -->
-    <section class="services section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-title">
-              <h2>Treatment specialization includes</h2>
-              <img src="img/section-img.png" alt="#" />
-              <!-- <p>
-                Providing psychotherapy and psychological evaluations for individuals, couples, and groups. Treatment
-                specialization includes:
-              </p> -->
-            </div>
-          </div>
+<!-- Start service -->
+<section class="services section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-6 col-sm-10">
+        <div class="section-title text-center mb-5">
+          <h2>Treatment Specialization</h2>
+          <img src="img/section-img.png" alt="Section Image" class="img-fluid mt-3" />
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Start Single Service -->
-            <div class="single-service">
-              <!-- <i class="icofont icofont-ui-check"></i> -->
-              <h4><a href="">Perinatal mood and anxiety disorders</a></h4>
-              <p>
-                share more info
-              </p>
-            </div>
-            <!-- End Single Service -->
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Start Single Service -->
-            <div class="single-service">
-              <!-- <i class="icofont icofont-ui-check"></i> -->
-              <h4><a href="">Depression and anxiety</a></h4>
-              <p>
-                share more info
-              </p>
-            </div>
-            <!-- End Single Service -->
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Start Single Service -->
-            <div class="single-service">
-              <!-- <i class="icofont icofont-ui-check"></i> -->
-              <h4><a href="">Grief and Loss</a></h4>
-              <p>
-                share more info
-              </p>
-            </div>
-            <!-- End Single Service -->
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Start Single Service -->
-            <div class="single-service">
-              <!-- <i class="icofont icofont-ui-check"></i> -->
-              <h4><a href="">Work and Career-Related Issues</a></h4>
-              <p>
-                share more info
-              </p>
-            </div>
-            <!-- End Single Service -->
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Start Single Service -->
-            <div class="single-service">
-              <!-- <i class="icofont icofont-ui-check"></i> -->
-              <h4><a href="">Anger Management</a></h4>
-              <p>
-                share more info
-              </p>
-            </div>
-            <!-- End Single Service -->
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Start Single Service -->
-            <div class="single-service">
-              <!-- <i class="icofont icofont-ui-check"></i> -->
-              <h4><a href="">Trauma</a></h4>
-              <p>
-                share more info
-              </p>
-            </div>
-  
-            <!-- End Single Service -->
-          </div>
-          
-        </div>
-  
       </div>
-    </section>
-    <!--/ End service -->
-  
+    </div>
+    <div class="row" style="padding: 30px;">
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div 
+          class="hover-effect" 
+          style="padding: 1rem; background-color: #fff;  border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; width: auto; height: 100px;"
+          onmouseover="this.style.backgroundColor='#cca783'; this.style.boxShadow='0 .25rem .5rem rgba(0,0,0,.15)'; this.style.transform='scale(1.05)';"
+          onmouseout="this.style.backgroundColor='#fff'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)'; this.style.transform='scale(1)';">
+          <h6 class="text-dark"><br/>Perinatal Mood and Anxiety Disorders</h6>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div 
+          class="hover-effect" 
+          style="padding: 1rem; background-color: #fff;  border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; width: auto; height: 100px;"
+          onmouseover="this.style.backgroundColor='#cca783'; this.style.boxShadow='0 .25rem .5rem rgba(0,0,0,.15)'; this.style.transform='scale(1.05)';"
+          onmouseout="this.style.backgroundColor='#fff'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)'; this.style.transform='scale(1)';">
+          <h6 class="text-dark"><br/>Depression and Anxiety</h6>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 mb-4" >
+        <div 
+          class="hover-effect" 
+          style="padding: 1rem; background-color: #fff;  border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; width: auto; height: 100px;"
+          onmouseover="this.style.backgroundColor='#cca783'; this.style.boxShadow='0 .25rem .5rem rgba(0,0,0,.15)'; this.style.transform='scale(1.05)';"
+          onmouseout="this.style.backgroundColor='#fff'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)'; this.style.transform='scale(1)';">
+          <h6 class="text-dark"><br/>Grief and Loss</h6>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 mb-4" >
+        <div 
+          class="hover-effect justify-content-center align-items" 
+          style="padding: 1rem; background-color: #fff;  border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; width: auto; height: 100px; align-items: center;"
+          onmouseover="this.style.backgroundColor='#cca783'; this.style.boxShadow='0 .25rem .5rem rgba(0,0,0,.15)'; this.style.transform='scale(1.05)';"
+          onmouseout="this.style.backgroundColor='#fff'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)'; this.style.transform='scale(1)';">
+          <h6 class="text-dark"><br/>Work and Career-Related Issues</h6>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 mb-4" >
+        <div 
+          class="hover-effect" 
+          style="padding: 1rem; background-color: #fff;  border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; width: auto; height: 100px;"
+          onmouseover="this.style.backgroundColor='#cca783'; this.style.boxShadow='0 .25rem .5rem rgba(0,0,0,.15)'; this.style.transform='scale(1.05)';"
+          onmouseout="this.style.backgroundColor='#fff'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)'; this.style.transform='scale(1)';">
+          <h6 class="text-dark"><br/>Anger Management</h6>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12 mb-4" >
+        <div 
+          class="hover-effect" 
+          style="padding: 1rem; background-color: #fff;  border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; width: auto; height: 100px;"
+          onmouseover="this.style.backgroundColor='#cca783'; this.style.boxShadow='0 .25rem .5rem rgba(0,0,0,.15)'; this.style.transform='scale(1.05)';"
+          onmouseout="this.style.backgroundColor=' #fff '; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)'; this.style.transform='scale(1)';">
+          <h6 class="text-dark"><br/>Trauma</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/ End service -->
 
+<section class="services section ">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-6 col-sm-10">
+        <div class="section-title text-center mb-5">
+          <h2>ADHD Testing for Children and Adults</h2>
+          <img src="img/section-img.png" alt="Section Image" class="img-fluid mt-3" />
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center" style="padding: 30px;">
+      <div class="col-lg-4 col-md-6 col-sm-10 mb-4">
+        <div 
+          class="hover-effect" 
+          style="padding: 1rem; background-color: #fff;  border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; height: 100px;"
+          onmouseover="this.style.backgroundColor='#cca783'; this.style.boxShadow='0 .25rem .5rem rgba(0,0,0,.15)'; this.style.transform='scale(1.05)';"
+          onmouseout="this.style.backgroundColor='#fff'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)'; this.style.transform='scale(1)';">
+          <h6><br/>1 intake interview <br/>(duration of 1 hour)</h6>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-10 mb-4">
+        <div 
+          class="hover-effect" 
+          style="padding: 1rem; background-color: #fff;  border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; height: 100px;"
+          onmouseover="this.style.backgroundColor='#cca783'; this.style.boxShadow='0 .25rem .5rem rgba(0,0,0,.15)'; this.style.transform='scale(1.05)';"
+          onmouseout="this.style.backgroundColor='#fff'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)'; this.style.transform='scale(1)';">
+          <h6><br/>1-feedback session <br/>(duration of 1 hour)</h6>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-10 mb-4">
+        <div 
+          class="hover-effect" 
+          style="padding: 1rem; background-color: #fff;  border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; height: 100px;"
+          onmouseover="this.style.backgroundColor='#cca783'; this.style.boxShadow='0 .25rem .5rem rgba(0,0,0,.15)'; this.style.transform='scale(1.05)';"
+          onmouseout="this.style.backgroundColor='#fff'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)'; this.style.transform='scale(1)';">
+          <h6><br/>4 hours of report-writing</h6>
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-10 col-sm-10 mb-4">
+        <div 
+          class="hover-effect" 
+          style="padding: 1rem; background-color: #fff;  border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; height: 100px;"
+          onmouseover="this.style.backgroundColor='#cca783'; this.style.boxShadow='0 .25rem .5rem rgba(0,0,0,.15)'; this.style.transform='scale(1.05)';"
+          onmouseout="this.style.backgroundColor='#fff'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)'; this.style.transform='scale(1)';">
+          <h6>2-4 hours of psychological testing (Intellectual and Achievement Assessments, Attentional Measures, and Self-Report Measures)</h6>
+        </div>
+      </div>
+      <div class="col-lg-12 col-md-10 col-sm-10 mb-4">
+        <div 
+          class="hover-effect" 
+          style="padding: 1rem; background-color: #fff;  border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);text-align: center; height: 100px;"
+          onmouseover="this.style.backgroundColor='#cca783'; this.style.boxShadow='0 .25rem .5rem rgba(0,0,0,.15)'; this.style.transform='scale(1.05)';"
+          onmouseout="this.style.backgroundColor='#fff'; this.style.boxShadow='0 .125rem .25rem rgba(0,0,0,.075)'; this.style.transform='scale(1)';">
+          <h6>1-2 hours of record review (e.g. school records, previous medical assessments, and records)</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
     
-
-
-
-
-
-
-
-    <section class="services ">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-title">
-              <h2>Now Offering</h2>
-              <img src="img/section-img.png" alt="#" />
-              <p>
-                ADHD Testing for Children and Adult This includes
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Start Single Service -->
-            <div class="single-service">
-              <i class="icofont icofont-ui-check"></i>
-              <h6><a href="">1 intake interview (duration of 1 hour)</a></h6>
-            </div>
-            <!-- End Single Service -->
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Start Single Service -->
-            <div class="single-service">
-              <i class="icofont icofont-ui-check"></i>
-              <h6><a href="">1-feedback session (duration of 1 hour)</a></h6>
-            </div>
-            <!-- End Single Service -->
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Start Single Service -->
-            <div class="single-service">
-              <i class="icofont icofont-ui-check"></i>
-              <h6><a href=""> 2-4 hours of psychological testing (Intellectual and Achievement 
-                Assessments, Attentional Measures, and Self-Report Measures)</a></h6>
-          
-            </div>
-            <!-- End Single Service -->
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Start Single Service -->
-            <div class="single-service">
-              <i class="icofont icofont-ui-check"></i>
-              <h6><a href=""> 1-2 hours of record review (e.g. school records, previous 
-                medical assessments, and records)</a></h6>
-            </div>
-            <!-- End Single Service -->
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Start Single Service -->
-            <div class="single-service">
-              <i class="icofont icofont-ui-check"></i>
-              <h6><a href="">4 hours of report-writing</a></h6>
-            </div>
-            <!-- End Single Service -->
-          </div>
-          
-        </div>
-      </div>
-    </section>
 
 
 
@@ -478,25 +464,23 @@
 
 
    <!-- Footer Area -->
-   <footer id="footer" class="footer ">
+   <footer id="footer" class="footer " >
     <!-- Footer Top -->
     <div class="footer-top">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-12">
+        <div class="row" style="padding: 30px;">
+          <!-- <div class="col-lg-3 col-md-6 col-12">
             <div class="single-footer">
               <h2>About Us</h2>
               <p>Dr. Soliman's Psychological Practice is aimed at providing high-quality psychological services and counseling. Pursuing psychological treatment can be initially an intimidating process; however, as with every new process, therapy can be an invaluable learning experience to help with managing anxiety, depression, anger, and stress, in addition to dealing with substance abuse issues. Therapy can also help with skill building in the area of interpersonal communications, as well as with conflict resolution. Diversity variables are also an important aspect of treatment, as well as medical issues that may be impacting optimal psychological health.</p>
-              <!-- Social -->
               <ul class="social">
                 <li><a href="#"><i class="icofont-facebook"></i></a></li>
                 <li><a href="#"><i class="icofont-google-plus"></i></a></li>
                 <li><a href="#"><i class="icofont-twitter"></i></a></li>
                 <li><a href="#"><i class="icofont-ui-call"></i></a></li>
               </ul>
-              <!-- End Social -->
             </div>
-          </div>
+          </div> -->
           <div class="col-lg-3 col-md-6 col-12">
             <div class="single-footer f-link">
               <h2>Quick Links</h2>
@@ -525,14 +509,15 @@
               <h2>Open Hours</h2>
               <!-- <p>Lorem ipsum dolor sit ame consectetur adipisicing elit do eiusmod tempor incididunt.</p> -->
               <ul class="time-sidual">
-                <li class="day">Monday - Friday <span>8.00 am - 7.00 pm</span></li>
+                <li class="day">Monday - Friday </li>
+                <li class="day">8.00 am - 7.00 pm</li>
               </ul>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <div class="single-footer">
               <h2>Location</h2>
-              <p>5151 N. Palm Suite 500, 610, and 711 Fresno, CA 93704</p>
+              <p>5151 N. Palm Suite 500, and 711 Fresno, CA 93704</p>
               <!-- <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
                 <input name="email" placeholder="Email Address" class="common-input" onfocus="this.placeholder = ''"
                   onblur="this.placeholder = 'Your email address'" required="" type="email">
